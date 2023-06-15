@@ -1,4 +1,4 @@
-Demo hello world app that builds a container image using Red Hat build of OpenJDK (registry.access.redhat.com/ubi9/openjdk-17:1.14).
+Demo hello world app that builds a container image using Red Hat build of OpenJDK (`registry.access.redhat.com/ubi9/openjdk-17:1.14`).
 
 To build an image, run `./mvnw clean package k8s:build -DskipTests`.
 
